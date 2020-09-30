@@ -1,0 +1,24 @@
+1) Criar um Web Services RESTful (formato JSON) que disponibilize os seguintes serviços:
+   Com base no arquivo funcionarios.txt, criar os seguintes serviços:
+      a. Serviço que localiza/retorna funcionários por Nome;
+      b. Serviço que localiza/retorna funcionários por CPF;
+      c. Serviço que localiza/retorna funcionários por Cargo;
+      d. Serviço que localiza/retorna funcionários por Data de Cadastros;
+      e. Serviço que retorna funcionários agrupados por UF de Nascimento, de forma quantitativa;
+      f. Serviço que localiza/retorna funcionários por faixa salarial;
+	  g. Serviço que localiza/retorna funcionários por status;
+	  h. Serviço para incluir um novo funcionário (caso o funcionário já exista, apenas atualizar);
+	  i. Serviço para excluir um funcionário pelo número do CPF;
+
+2) Criar o frontend para consumo dos serviços criados acima.
+
+# Requisitos
+
+1. Use a linguagem que você tem mais habilidade (temos preferência por Node, Java e GoLang, mas poderá ser utilizado qualquer linguagem desde que explicado a preferência).
+2. As APIs deverão seguir o modelo RESTFul com formato JSON  
+3. Faça testes unitários, suite de testes bem organizados (atenção especial nesse item).
+4. Use git e tente fazer commits pequenos e bem descritos.
+5. Faça pelo menos um README explicando como fazer o setup, uma explicação da solução proposta, o mínimo de documentação para outro desenvolvedor entender seu código
+6. Siga o que considera boas práticas de programação.
+7. A API deverá ser documentada através de Swagger ou equivalente
+8. Após concluir o teste suba em um REPOSITÓRIO PRIVADO, conceda acesso ao usuário danilodeusdara e nos mande o link.
