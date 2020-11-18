@@ -30,15 +30,15 @@ Principais Funções:
 ## Instalação
 Use o git [clone](https://git-scm.com/docs/git-clone) para clonar o repositório em conjunto aos sub-módulos (backdend e frontend).
 ```bash
-git clone --recurse-submodules https://github.com/hugoms154/AlluProject.git
+git clone --recurse-submodules https://github.com/hugoms154/eGestor.git
 ```
 
 Para baixar separadamente
 ```bash
-git clone https://github.com/hugoms154/AlluProject.git
-cd AlluProject
-git clone https://github.com/hugoms154/backend-allu.git
-git clone https://github.com/hugoms154/frontend-allu.git
+git clone https://github.com/hugoms154/eGestor.git
+cd eGestor
+git clone https://github.com/hugoms154/backend-egestor.git
+git clone https://github.com/hugoms154/frontend-egestor.git
 ```
 
 ## :copyright: License
